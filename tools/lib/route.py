@@ -1,6 +1,5 @@
 import os
 import re
-import enum
 import requests
 from functools import cache
 from urllib.parse import urlparse
