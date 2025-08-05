@@ -12,8 +12,7 @@ from openpilot.tools.lib.api import APIError, CommaApi
 from openpilot.tools.lib.helpers import RE
 
 
-class FileName(enum.Enum):
-  _value_: tuple[str, ...]
+class FileName:
   #TODO use the ones from route.py
   RLOG = ("rlog.zst", "rlog.bz2")
   QLOG = ("qlog.zst", "qlog.bz2")
